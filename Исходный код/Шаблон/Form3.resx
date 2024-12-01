@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="клиентыBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>276, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEANToAAAEAIAAAMgAAFgAAACgAAAA1AAAAdAAAAAEAIAAAAAAACDAAAAAAAAAAAAAAAAAAAAAA
+        AAAuHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/9ENCj/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/rqij/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/0Q0KP/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f+uqKP/LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//RDQo//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx/66oo/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/9ENCj/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/rqij/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/0Q0KP/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f+uqKP/LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/15RR/9eUUf/XlFH/15RR/9eUUf/XlFH/15RR/9eUUf/XlFH/15R
+        R/9lWE//y8fF//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f+Ifnf/XlFH/15RR/9eUUf/XlFH/15RR/9eUUf/XlFH/15R
+        R/9eUUf/XlFH/04+NP8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//OCcb/87Lyf/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f9sYFf/LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/+7trL/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/c2tn/q6Wg//Hx8f/x8fH/yMTB/8O/
+        vP/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx/+rq6f9VRjz/LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//joV///Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f+yrKj/XlBG/y4cD/8uHA//8fHx//Hx8f+Ti4T/LhwP/z0tIf+Mgnz/4d/e//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx/9rY1/86KR3/LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/1hK
+        QP/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/a19b/X1JI/y4cD/8uHA//LhwP/y4cD//x8fH/8fHx/5OL
+        hP8uHA//LhwP/y4cD/86KR3/pqCb//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx/7Cqpv8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//zsvJ//Hx8f/x8fH/8fHx//Hx8f/x8fH/zcnH/z8v
+        I/8uHA//LhwP/y4cD/8uHA//hXt0//Hx8f/x8fH/k4uE/y4cD/8uHA//LhwP/y4cD/8uHA//g3lx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx/2VYT/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/2xf
+        Vv/x8fH/8fHx//Hx8f/x8fH/8fHx/9/e3P89LCD/LhwP/y4cD/8uHA//LhwP/35zbP/x8fH/8fHx//Hx
+        8f+Ti4T/LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//j4aA//Hx8f/x8fH/8fHx//Hx8f/x8fH/zcnH/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//vLi0//Hx8f/x8fH/8fHx//Hx8f/x8fH/YFNJ/y4c
+        D/8uHA//LhwP/y4cD/99c2v/8fHx//Hx8f/x8fH/8fHx/5OLhP8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//xL+8//Hx8f/x8fH/8fHx//Hx8f/x8fH/WEpA/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/zsq
+        Hv/x8fH/8fHx//Hx8f/x8fH/8fHx/8G8uf8uHA//LhwP/y4cD/8uHA//eW1l//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/k4uE/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/9eUEb/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f+akoz/LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//b2Na//Hx8f/x8fH/8fHx//Hx8f/x8fH/a15V/y4c
+        D/8uHA//LhwP/3RpYf/x8fH/8fHx/+rq6f9kV07/8fHx//Hx8f+Ti4T/LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD//Nycf/8fHx//Hx8f/x8fH/8fHx/9LPzf8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/+WjYf/8fHx//Hx8f/x8fH/8fHx//Hx8f81JBf/LhwP/y4cD/9iVUv/8fHx//Hx8f/q6en/YVRK/y4c
+        D//x8fH/8fHx/6+ppP8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/4yCfP/x8fH/8fHx//Hx
+        8f/x8fH/8fHx/zgnGv8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/7Cppf/x8fH/8fHx//Hx8f/x8fH/zcrI/y4c
+        D/8uHA//LhwP/zcmGf/JxcL/6unp/15RR/8uHA//LhwP/+3t7P/x8fH/8fHx/56Xkf8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//ZllQ//Hx8f/x8fH/8fHx//Hx8f/x8fH/UkQ5/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//ubSw//Hx8f/x8fH/8fHx//Hx8f+7trL/LhwP/y4cD/8uHA//LhwP/zcmGf9XST//LhwP/y4c
+        D/8uHA//8fHx//Hx8f/x8fH/8fHx/52Vj/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/9SRDn/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f9fUUf/LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/+4sq7/8fHx//Hx8f/x8fH/8fHx/7m0
+        sP8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD//t7ez/8fHx//Hx8f/x8fH/8fHx/6Sd
+        mP8vHRD/LhwP/y4cD/8uHA//LhwP/1hKQP/x8fH/8fHx//Hx8f/x8fH/8fHx/1dJP/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/6afmv/x8fH/8fHx//Hx8f/x8fH/yMTB/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP//Hx8f/x8fH/qKGd/9XT0f/x8fH/8fHx/6SdmP8uHA//LhwP/y4cD/8uHA//bmJZ//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/QTAl/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//l4+J//Hx8f/x8fH/8fHx//Hx
+        8f/q6en/MyEV/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//7e3s//Hx8f+Ti4T/Py8j/9XS
+        0P/x8fH/8fHx/6minv8vHRD/LhwP/y4cD/+ako3/8fHx//Hx8f/x8fH/8fHx//Dw8P8vHRD/LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/97cGj/8fHx//Hx8f/x8fH/8fHx//Hx8f9nW1L/LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD//x8fH/8fHx/5OLhP8uHA//PS0h/8/Myv/x8fH/p6Gc/y4cD/8uHA//LhwP/9bU
+        0v/x8fH/8fHx//Hx8f/x8fH/zsvJ/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/0EwJf/x8fH/8fHx//Hx
+        8f/x8fH/8fHx/8C7uP8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP//Hx8f/x8fH/k4uE/y4c
+        D/8uHA//Oikd/5GIgf8uHA//LhwP/y4cD/9lWE//8fHx//Hx8f/x8fH/8fHx//Hx8f+VjIb/LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/8XBvv/x8fH/8fHx//Hx8f/x8fH/8fHx/2ldU/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//8fHx//Hx8f+Ti4T/LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/9DN
+        y//x8fH/8fHx//Hx8f/x8fH/8fHx/1dJP/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//fHFp//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/4N7d/z4uIv8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/+9uLX/wLy5/3pv
+        Z/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/+VjIb/8fHx//Hx8f/x8fH/8fHx//Hx8f/Rz8z/LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//1dLQ//Hx8f/x8fH/8fHx//Hx8f/x8fH/wLy5/zYl
+        GP8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//bmJZ//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx/2xgV/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/9tYVj/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/1NHP/1BBNv8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/5KJgv/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/JxsP/LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/+moJv/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx/6Kalf9PQDX/LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//NiUY/29kW//X1dP/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/5OPi/0s8Mf8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/+8t7P/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/h397/uLOv/6Ob
+        lv+VjIb/raei/8jEwf/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f9bTkT/LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/zcmGf++ubb/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/q6en/aV1T/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/zAfEv+moJv/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/397c/1FCN/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/9xZV3/29nY//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx
+        8f/x8fH/8fHx/6ymof9BMCX/LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/81Ixf/iX94/97c2v/x8fH/8fHx//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx/7izr/9SRDn/LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/15QRv+dlY//xsK//9fV0//n5uX/8fHx/9/e3P/Qzcv/urWx/4B1
+        bv89LSH/LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4c
+        D/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/y4cD/8uHA//LhwP/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+</root>
