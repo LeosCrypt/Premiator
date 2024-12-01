@@ -1,10 +1,14 @@
 import pyodbc
+import os
 from flask import Flask, render_template
+
+relative_path = "AAAAAAAAAAAAAA.mdb"
+absolute_path = os.path.abspath(relative_path)
 
 app = Flask(__name__)
 
 def get_db_connection():
-    conn = pyodbc.connect(r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=Z:\repos\pythonProject\AAAAAAAAAAAAAA.mdb;')
+    conn = pyodbc.connect(r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=' + absolute_path + ';')
     return conn
 
 @app.route('/')
