@@ -1,0 +1,10 @@
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\bin\Debug\Шаблон.exe.config
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\bin\Debug\Шаблон.exe
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\bin\Debug\Шаблон.pdb
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.csproj.AssemblyReference.cache
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.Form1.resources
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.Properties.Resources.resources
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.csproj.GenerateResource.cache
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.csproj.CoreCompileInputs.cache
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.exe
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.pdb

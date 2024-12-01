@@ -1,0 +1,13 @@
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Система мотивации.csproj.AssemblyReference.cache
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.Form1.resources
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.Properties.Resources.resources
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Система мотивации.csproj.GenerateResource.cache
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Система мотивации.csproj.CoreCompileInputs.cache
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.exe
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.pdb
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\bin\Debug\AAAAAAAAAAAAAA.accdb
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\bin\Debug\Шаблон.exe.config
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\bin\Debug\Шаблон.exe
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\bin\Debug\Шаблон.pdb
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.Form2.resources
+C:\Users\Дарья\source\repos\Шаблон\Шаблон\obj\Debug\Шаблон.Form3.resources
