@@ -1,0 +1,89 @@
+/* Заголовок */
+.zag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0;
+    background: #0d1e2d;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.zag_h2 {
+    font-size: 49.99px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.zag_h1 {
+    font-size: 90px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.zag_sp1 {
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.zag_sp2 {
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-bottom: 300px;
+    margin-left: 23px;
+}
+
+/*Картинки заголовка*/
+.el_o {
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+}
+.prof_img{
+    max-width: 190%;
+    margin: 0 0 0 0;
+}
+
+/* Часть с таблицей */
+.tabl_db {
+    background-color: #f1f1f1;
+    padding-top: 50px;
+    padding-bottom: 800px;
+}
+
+.tabl_rait {
+    border: 5px solid #1c1030;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 5px black;
+    font-size: 30px;
+    font-family: Verdana;
+    margin: 0 400px;
+    padding: 15px;
+}
+
+.table{
+margin-top: 50px;
+}
+/*Подвал*/
+.foot_el_o {
+    padding: 10px;
+    max-width: 30%;
+    height: auto;
+}
+.foot_zag_h2 {
+    font-size: 30.99px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-left: 300px;
+}
+
+.foot_zag_h1 {
+    font-size: 58px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin: 10px 0 0 300px;
+}
