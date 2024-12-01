@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" class="href">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.css')}}" class="href">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <title>Бизнес-клуб Krona</title>
+</head>
+<body>
+<header>
+    <div>
+        <div class="row zag zag_fon align-items-center">
+            <div class="col-md-4 text-center">
+              <a href="https://kronaclub.com/?ysclid=m43jyh1po2559915297"><img class="el_o" src="static/img/element_o.PNG" alt="Logo"></a>
+              <figcaption class="zag_sp1">МЕНЬШЕ СЛОВ,</figcaption>
+              <figcaption class="zag_sp2">БОЛЬШЕ ДЕЛ</figcaption>
+            </div>
+            <div class="col-md-4">
+                <img class="prof_img" src="static/img/prolog_image.png">
+            </div>
+            <div class="col-md-4 text-center">
+                <h2 class="zag_h2">Бизнес-клуб</h2>
+                <h1 class="zag_h1">KRONA</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="row">
+    <div class="tabl_db">
+        <center class="tabl_rait"><span>Таблица общего рейтинга</span></center>
+        <div class="filter-container">
+            <label for="filialFilter">Фильтр по коду филиала:</label>
+            <input type="number" id="filialFilter" class="form-control">
+            <label for="ballsFilter">Фильтр по баллам:</label>
+            <input type="number" id="ballsFilter" class="form-control">
+        </div>
+        <table id="ratingTable" class="table">
+        <thead>
+            <tr>
+                <th>ФИО Сотрудника</th>
+                <th>Код филиала</th>
+                <th>Баллы</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+            <tr>
+                <td>{{ row.фио }}</td>
+                <td>{{ row.код_филиала }}</td>
+                <td>{{ row.балл }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    </div>
+</main>
+<footer>
+  <div class="row zag align-items-center">
+            <div class="col-md-4 text-center">
+                <a href="https://kronaclub.com/?ysclid=m43jyh1po2559915297"><img class="foot_el_o" src="static/img/element_o.PNG" alt="Logo"></a>
+            </div>
+            <div class="col-md-8 text-center">
+                <h2 class="foot_zag_h2">Бизнес-клуб</h2>
+                <h1 class="foot_zag_h1">KRONA</h1>
+            </div>
+        </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" charset="utf8" src="{{url_for('static', filename='script.js')}}"></script>
+<script>
+    $(document).ready(function() {
+        var table = $('#ratingTable').DataTable();
+
+        $('#filialFilter').on('keyup', function() {
+            table.column(1).search(this.value).draw();
+        });
+
+        $('#ballsFilter').on('keyup', function() {
+            table.column(2).search(this.value).draw();
+        });
+    });
+</script>
+</body>
+</html>
